@@ -190,7 +190,7 @@ module Ruote
         's_logger' => [
           'ruote/log/wait_logger', 'Ruote::WaitLogger' ],
         's_history' => [
-          'ruote/log/default_history', 'Ruote::DefaultHistory' ] }
+          'ruote/log/storage_history', 'Ruote::StorageHistory' ] }
     end
   end
 end
